@@ -12,8 +12,8 @@
     <p>
       Amount ordered: {{ amountOrdered }}
     </p>
-    <button @click="increaseBurger">+</button>
-    <button @click="decreaseBurger">-</button>
+    <button v-on:click="increaseBurger">+</button>
+    <button v-on:click="decreaseBurger">-</button>
   </div>
 </template>
 
